@@ -2,7 +2,7 @@ import AuthContext from './AuthContext.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { useLocalStorage } from 'usehooks-ts';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import RequireAuth from './RequireAuth.jsx';
 import Login from './pages/Login.jsx';
 import Dashboard from './pages/Dashboard.jsx';
@@ -27,6 +27,7 @@ export default function App(){
               path="/dashboard"
             />
             <Route element={<Login/>} path="/login" />
+            <Route element={<Navigate to="/login" replace/>} path="/" />
             <Route element={<NotFound/>} path="*" />
           </Routes>
         </BrowserRouter>
