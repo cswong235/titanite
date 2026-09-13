@@ -1,0 +1,158 @@
+.font-blinker{
+    font-family: 'Blinker';
+}
+
+.login-background{
+    background-image: url('./assets/TitaniteLogin.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 210.8vh;
+}
+
+.house{
+    position: absolute;
+    z-index: -1;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+
+.column-left{
+    width: auto;
+    transform: translate(-65%, 0);
+}
+
+.column-right{
+    width: auto;
+    transform: translate(65%, 0);
+}
+
+.appliance-card-on{
+    background: linear-gradient(to bottom, rgb(126, 255, 121), rgb(85, 235, 65));
+    border: 2px solid rgb(99, 255, 146);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.appliance-card-off{
+    background: linear-gradient(to bottom, rgb(255, 121, 121), rgb(252, 62, 62));
+    border: 2px solid rgb(255, 208, 208);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.is-on{
+    background-color: rgb(63, 224, 63);
+}
+
+.is-off{
+    background-color: rgb(192, 66, 66);
+}
+
+.pointer-1{
+    z-index: -1;
+    position: absolute;
+    width: 650px;
+    height: 5px;
+    transform: translate(20%, -450px);
+}
+
+.pointer-2{
+    z-index: -1;
+    position: absolute;
+    width: 700px;
+    height: 5px;
+    transform: translate(60%, -270px);
+    rotate: -13deg;
+}
+
+.pointer-3{
+    z-index: -1;
+    position: absolute;
+    width: 500px;
+    height: 5px;
+    transform: translate(70%, -130px);
+    rotate: 8deg;
+}
+
+.pointer-4{
+    z-index: -1;
+    position: absolute;
+    width: 500px;
+    height: 5px;
+    transform: translate(-1110px, -210px);
+    rotate: -210deg;
+}
+
+.pointer-5{
+    z-index: -1;
+    position: absolute;
+    width: 550px;
+    height: 5px;
+    transform: translate(-1050px, 40px);
+    rotate: -190deg;
+}
+
+.pointer-6{
+    z-index: -1;
+    position: absolute;
+    width: 550px;
+    height: 5px;
+    transform: translate(-1100px, 300px);
+    rotate: 190deg;
+}
+
+.dot-1{
+    z-index: -1;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    transform: translate(770px, -455px);
+}
+
+.dot-2{
+    z-index: -1;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    transform: translate(1030px, -442px);
+}
+
+.dot-3{
+    z-index: -1;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    transform: translate(850px, -51px);
+}
+
+.dot-4{
+    z-index: -1;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    transform: translate(1090px, -252px); 
+}
+
+.dot-5{
+    z-index: -1;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    transform: translate(1025px, -179px); 
+}
+
+.dot-6{
+    z-index: -1;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    transform: translate(1130px, -158px); 
+}
