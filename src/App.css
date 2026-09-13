@@ -63,8 +63,7 @@
     position: absolute;
     width: 700px;
     height: 5px;
-    transform: translate(60%, -270px);
-    rotate: -13deg;
+    transform: rotate(-13deg) translate(60%, -270px);
 }
 
 .pointer-3{
@@ -72,8 +71,7 @@
     position: absolute;
     width: 500px;
     height: 5px;
-    transform: translate(70%, -130px);
-    rotate: 8deg;
+    transform: rotate(8deg) translate(70%, -130px);
 }
 
 .pointer-4{
@@ -81,8 +79,7 @@
     position: absolute;
     width: 500px;
     height: 5px;
-    transform: translate(-1110px, -210px);
-    rotate: -210deg;
+    transform: rotate(-210deg) translate(-1110px, -210px);
 }
 
 .pointer-5{
@@ -90,8 +87,7 @@
     position: absolute;
     width: 550px;
     height: 5px;
-    transform: translate(-1050px, 40px);
-    rotate: -190deg;
+    transform: rotate(-190deg) translate(-1050px, 40px);
 }
 
 .pointer-6{
@@ -99,8 +95,7 @@
     position: absolute;
     width: 550px;
     height: 5px;
-    transform: translate(-1100px, 300px);
-    rotate: 190deg;
+    transform: rotate(190deg) translate(-1100px, 300px);
 }
 
 .dot-1{
